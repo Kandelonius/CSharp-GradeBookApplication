@@ -9,7 +9,7 @@ namespace GradeBook.GradeBooks
     {
         private static string name;
 
-        public StandardGradeBook(string ) : base(name)
+        public StandardGradeBook(string name) : base(name)
         {
             Type = GradeBookType.Standard;
         }
