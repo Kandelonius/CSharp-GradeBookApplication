@@ -5,13 +5,13 @@ using System.Text;
 
 namespace GradeBook.GradeBooks
 {
-    public class StandardGradeBook : BaseGradeBook
+    public class RankedGradeBook : BaseGradeBook
     {
         private static string name;
 
-        public StandardGradeBook() : base(name)
+        public RankedGradeBook() : base(name)
         {
-            this.Type = GradeBookType.Standard;
+            this.Type = GradeBookType.Ranked;
         }
     }
 }
