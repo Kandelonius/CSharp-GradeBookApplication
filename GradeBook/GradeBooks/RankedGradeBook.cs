@@ -1,7 +1,4 @@
 ﻿using GradeBook.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GradeBook.GradeBooks
 {
@@ -9,9 +6,9 @@ namespace GradeBook.GradeBooks
     {
         private static string name;
 
-        public RankedGradeBook() : base(name)
+        public RankedGradeBook(string name) : base(name)
         {
-            this.Type = GradeBookType.Ranked;
+            Type = GradeBookType.Ranked;
         }
     }
 }
